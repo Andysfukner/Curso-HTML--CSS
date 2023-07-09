@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download de fontes</title>
+    <style>
+        /*dafont.com*/
+        @font-face {
+            font-family: "Rastalia"; /*nome que quiser*/
+            src: url("../fontes/Rastalia .otf") format("opentype"), url("../fontes/Rastalia.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embed-opentype
+                - trutype-aat
+                - svg
+            */
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1,h2 {
+            font-family: Rastalia;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dignissimos eligendi facilis laudantium suscipit deserunt perspiciatis voluptates amet. Odit aliquid enim dignissimos earum voluptas natus blanditiis autem labore molestias facere.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dignissimos eligendi facilis laudantium suscipit deserunt perspiciatis voluptates amet. Odit aliquid enim dignissimos earum voluptas natus blanditiis autem labore molestias facere.</p>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(8, 15, 56);
+            margin: 0px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        header {
+            background-color: rgb(36, 55, 136);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(25, 27, 95);
+            padding: 3px;
+            padding-left: 20px;
+            border-radius: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(170, 225, 235);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+        }
+
+        article {
+            background-color: rgb(77, 163, 212);
+            padding: 10px;
+        }
+
+        article > h2 {
+            margin-top: 0px;
+        }
+
+        article > p {
+            margin-bottom: 0px;
+        }
+        article >aside {
+            background-color: rgb(52, 111, 145);
+            padding-left: 10px;
+            margin: 0px;
+        }
+
+        footer {
+            background-color: rgb(107, 107, 107);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(204, 204, 204);
+
+        }
+        div#bola:hover {
+            background-color: rgb(204, 204, 204);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="anuncios">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nisi asperiores voluptates numquam commodi. Quasi odit dolor dolorem est pariatur tempora suscipit dolorum perferendis, ipsum fugit ex possimus enim delectus.</p>
+                <aside>
+                    <p>Artigo por José</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
